@@ -1,0 +1,28 @@
+*{
+
+}
+body{
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.53;
+    color: #010304;
+
+}
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+.banner-part{
+    height: 100vh;
+    position: relative;
+    /* background: color url() repeat 50% 50% /cover; */
+}
+.banner-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

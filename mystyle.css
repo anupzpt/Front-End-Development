@@ -22,7 +22,7 @@ body{
     background-color: black;
     border-radius: 5px;
 }
-.align{
+/* .align{
     overflow: hidden;
 }
 .left{
@@ -30,4 +30,15 @@ body{
 }
 .right{
     float: right;
+} */
+.left{
+display: inline-block;
+background-color: blue;
+height: 150px;
+width: 50px;
+vertical-align: middle;
+}
+.right{
+ 
+    background-color: rgb(70, 197, 236);
 }
